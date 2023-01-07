@@ -155,6 +155,8 @@ def main():
         # Limiting the max FPS
         clock.tick(FPS)
         for event in pygame.event.get():
+            
+            # Closing the game if someone clicks on the "x" button.
             if event.type == pygame.QUIT:
                 executing = False
                 pygame.quit()
@@ -200,7 +202,8 @@ def main():
             # Calling the endgame_draw function to draw the chosen phrase on the screen.
             endgame_draw(endgame_string, endgame_string1, endgame_string2, color)
             break
-
+            
+        # Calling the other functions in our main function.
         shooting_func(left_projectiles, right_projectiles, left, right)
         keys_pushed = pygame.key.get_pressed()
         left_ship_controls(keys_pushed, left)
