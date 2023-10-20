@@ -16,10 +16,9 @@ A 2D, two-player shooter video game in star wars theme.
 - Every player got only 3 bullets in his clip and if they shot them all, 
 - they have to wait until the bullets leave the screen or hit the opponent to shoot more.  
 ## Screenshots
-
-![Screenshot](screenshots/screenshot%20(25).png)
-![Screenshot](screenshots/screenshot%20(26).png)
-![Screenshot](screenshots/screenshot%20(27).png)
+![Screenshot (25).png](screenshots%2FScreenshot%20%2825%29.png)
+![Screenshot (26).png](screenshots%2FScreenshot%20%2826%29.png)
+![Screenshot (27).png](screenshots%2FScreenshot%20%2827%29.png)
 
 ## Installation
 
