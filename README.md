@@ -1,4 +1,6 @@
-This was, actually one of the very first python projects i worked on. It is:
+A little beginner project that helped me pretty much when I was learning the basics of python 
+functional programming and the pygame library.
+
 
 # Pew-Pew-Die
 A 2D, two-player shooter video game in star wars theme.
@@ -13,8 +15,9 @@ A 2D, two-player shooter video game in star wars theme.
   - Player 2:
     - Move: WASD
     - Shoot: Left CTRL
-- Every player got only 3 bullets in his clip and if they shot them all, 
+- Every player got only 3 bullets in available and if they shoot them all at once, 
 - they have to wait until the bullets leave the screen or hit the opponent to shoot more.  
+
 ## Screenshots
 ![Screenshot (25).png](screenshots%2FScreenshot%20%2825%29.png)
 ![Screenshot (26).png](screenshots%2FScreenshot%20%2826%29.png)
@@ -36,4 +39,4 @@ python main.py
 
 
 License
-This project is licensed under the MIT License - free to use.
+This project is licensed under the MIT License - use it however you like.
